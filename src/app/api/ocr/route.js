@@ -1,13 +1,6 @@
 import { buffer } from 'micro';
 import { loadPyodide } from 'pyodide';
 
-export const config = {
-  api: {
-    bodyParser: false,
-    sizeLimit: '4mb',
-  },
-};
-
 export default async function handler(req, res) {
   if (req.method === 'POST') {
     try {
