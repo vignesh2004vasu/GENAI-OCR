@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import styles from '../styles/Home.module.css';
 import OCRComponent from '../components/OCRComponent';
 import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/generative-ai";
