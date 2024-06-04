@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
     <main className={styles.container}>
-      <h1 className={styles.heading}>MY AI OCR</h1>
+      <h1 className={styles.heading}>MY AI OCR ...</h1>
       <form onSubmit={handleSubmit} className={styles.form}>
         <input
           type="text"
