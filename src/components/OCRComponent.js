@@ -23,6 +23,7 @@ const OCRComponent = () => {
 
   return (
     <div className="ocr-container">
+      <h1>Please choose Image File Only</h1>
       <input type="file" accept="image/*" onChange={handleOCR} className="ocr-input" />
       {ocrResult && <div className="ocr-result">OCR Result: {ocrResult}</div>}
     </div>
